@@ -23,4 +23,6 @@ public protocol NetworkProtocol {
     func cancelAllTasks()
     
     func cancelTaskWithUrl(url: URL)
+    
+    var isInternetReachable: Bool { get }
 }

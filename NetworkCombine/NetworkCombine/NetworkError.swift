@@ -27,6 +27,7 @@ extension NetworkError {
     }
     
     static func validateHTTPError(urlResponse: HTTPURLResponse?) -> NetworkError? {
+        
         guard let response = urlResponse else {
             return  .unknown
         }
@@ -43,5 +44,19 @@ extension NetworkError {
             default:
                 return .unknown
         }
+    }
+    
+    static func logRequests(logger: NetworkLogger?,
+                            urlResponse: HTTPURLResponse?,
+                            error: NetworkError) {
+        guard let log = logger,
+              let url = urlResponse?.url else {
+                  return
+              }
+        
+        log.logUrl(url: url,
+                   error: error,
+                   type: .error,
+                   privacy: .encapsulate)
     }
 }

@@ -7,6 +7,9 @@ final public class Network: NetworkProtocol {
     private var sessionDelegate: NetworkSessionDelegateProtocol?
     private var cancellable = Set<AnyCancellable>()
     private let progress: PassthroughSubject<(id: Int, progress: Double), NetworkError> = .init()
+    public var isInternetReachable: Bool {
+        NetworkReachability.shared.isReachable
+    }
     
     public init(defaultSession: NetworkSessionProtocol = URLSession.shared,
                 logger: NetworkLogger? = nil) {

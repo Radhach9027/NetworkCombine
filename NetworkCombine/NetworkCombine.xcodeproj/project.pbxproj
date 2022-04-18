@@ -11,6 +11,19 @@
 		A2DBF921280D56790060BF21 /* NetworkCombine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DBF916280D56790060BF21 /* NetworkCombine.framework */; };
 		A2DBF926280D56790060BF21 /* NetworkCombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DBF925280D56790060BF21 /* NetworkCombineTests.swift */; };
 		A2DBF927280D56790060BF21 /* NetworkCombine.h in Headers */ = {isa = PBXBuildFile; fileRef = A2DBF919280D56790060BF21 /* NetworkCombine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2DBF93D280D92950060BF21 /* NetworkHTTPHeaderField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DBF933280D92940060BF21 /* NetworkHTTPHeaderField.swift */; };
+		A2DBF93E280D92950060BF21 /* NetworkBodyRequestParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DBF93A280D92950060BF21 /* NetworkBodyRequestParameters.swift */; };
+		A2DBF93F280D92950060BF21 /* NetworkSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DBF936280D92950060BF21 /* NetworkSessionProtocol.swift */; };
+		A2DBF940280D92950060BF21 /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DBF934280D92940060BF21 /* NetworkReachability.swift */; };
+		A2DBF941280D92950060BF21 /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DBF938280D92950060BF21 /* NetworkResult.swift */; };
+		A2DBF942280D92950060BF21 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DBF935280D92950060BF21 /* Network.swift */; };
+		A2DBF943280D92950060BF21 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DBF939280D92950060BF21 /* NetworkError.swift */; };
+		A2DBF944280D92950060BF21 /* NetworkRequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DBF930280D92940060BF21 /* NetworkRequestMethod.swift */; };
+		A2DBF945280D92950060BF21 /* NetworkEnvironmentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DBF931280D92940060BF21 /* NetworkEnvironmentProtocol.swift */; };
+		A2DBF946280D92950060BF21 /* NetworkSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DBF932280D92940060BF21 /* NetworkSessionDelegate.swift */; };
+		A2DBF947280D92950060BF21 /* NetworkRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DBF93B280D92950060BF21 /* NetworkRequestProtocol.swift */; };
+		A2DBF948280D92950060BF21 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DBF937280D92950060BF21 /* NetworkLogger.swift */; };
+		A2DBF949280D92950060BF21 /* NetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DBF93C280D92950060BF21 /* NetworkProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +42,19 @@
 		A2DBF91A280D56790060BF21 /* NetworkCombine.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = NetworkCombine.docc; sourceTree = "<group>"; };
 		A2DBF920280D56790060BF21 /* NetworkCombineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkCombineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DBF925280D56790060BF21 /* NetworkCombineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCombineTests.swift; sourceTree = "<group>"; };
+		A2DBF930280D92940060BF21 /* NetworkRequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestMethod.swift; sourceTree = "<group>"; };
+		A2DBF931280D92940060BF21 /* NetworkEnvironmentProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEnvironmentProtocol.swift; sourceTree = "<group>"; };
+		A2DBF932280D92940060BF21 /* NetworkSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSessionDelegate.swift; sourceTree = "<group>"; };
+		A2DBF933280D92940060BF21 /* NetworkHTTPHeaderField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHTTPHeaderField.swift; sourceTree = "<group>"; };
+		A2DBF934280D92940060BF21 /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
+		A2DBF935280D92950060BF21 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		A2DBF936280D92950060BF21 /* NetworkSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSessionProtocol.swift; sourceTree = "<group>"; };
+		A2DBF937280D92950060BF21 /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		A2DBF938280D92950060BF21 /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		A2DBF939280D92950060BF21 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		A2DBF93A280D92950060BF21 /* NetworkBodyRequestParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkBodyRequestParameters.swift; sourceTree = "<group>"; };
+		A2DBF93B280D92950060BF21 /* NetworkRequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestProtocol.swift; sourceTree = "<group>"; };
+		A2DBF93C280D92950060BF21 /* NetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +98,19 @@
 			isa = PBXGroup;
 			children = (
 				A2DBF919280D56790060BF21 /* NetworkCombine.h */,
+				A2DBF935280D92950060BF21 /* Network.swift */,
+				A2DBF93A280D92950060BF21 /* NetworkBodyRequestParameters.swift */,
+				A2DBF931280D92940060BF21 /* NetworkEnvironmentProtocol.swift */,
+				A2DBF939280D92950060BF21 /* NetworkError.swift */,
+				A2DBF933280D92940060BF21 /* NetworkHTTPHeaderField.swift */,
+				A2DBF937280D92950060BF21 /* NetworkLogger.swift */,
+				A2DBF93C280D92950060BF21 /* NetworkProtocol.swift */,
+				A2DBF934280D92940060BF21 /* NetworkReachability.swift */,
+				A2DBF930280D92940060BF21 /* NetworkRequestMethod.swift */,
+				A2DBF93B280D92950060BF21 /* NetworkRequestProtocol.swift */,
+				A2DBF938280D92950060BF21 /* NetworkResult.swift */,
+				A2DBF932280D92940060BF21 /* NetworkSessionDelegate.swift */,
+				A2DBF936280D92950060BF21 /* NetworkSessionProtocol.swift */,
 				A2DBF91A280D56790060BF21 /* NetworkCombine.docc */,
 			);
 			path = NetworkCombine;
@@ -194,7 +233,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2DBF93D280D92950060BF21 /* NetworkHTTPHeaderField.swift in Sources */,
+				A2DBF943280D92950060BF21 /* NetworkError.swift in Sources */,
+				A2DBF945280D92950060BF21 /* NetworkEnvironmentProtocol.swift in Sources */,
+				A2DBF946280D92950060BF21 /* NetworkSessionDelegate.swift in Sources */,
 				A2DBF91B280D56790060BF21 /* NetworkCombine.docc in Sources */,
+				A2DBF948280D92950060BF21 /* NetworkLogger.swift in Sources */,
+				A2DBF93E280D92950060BF21 /* NetworkBodyRequestParameters.swift in Sources */,
+				A2DBF941280D92950060BF21 /* NetworkResult.swift in Sources */,
+				A2DBF93F280D92950060BF21 /* NetworkSessionProtocol.swift in Sources */,
+				A2DBF947280D92950060BF21 /* NetworkRequestProtocol.swift in Sources */,
+				A2DBF949280D92950060BF21 /* NetworkProtocol.swift in Sources */,
+				A2DBF942280D92950060BF21 /* Network.swift in Sources */,
+				A2DBF944280D92950060BF21 /* NetworkRequestMethod.swift in Sources */,
+				A2DBF940280D92950060BF21 /* NetworkReachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +448,7 @@
 		A2DBF92E280D56790060BF21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -411,6 +464,7 @@
 		A2DBF92F280D56790060BF21 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
